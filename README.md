@@ -27,13 +27,13 @@ pip install lxml
 pip install colorama
 ```
 ```bash
-pkg install wget -y
+pkg install ❤️
 ```
 ```bash
 pkg install git -y
 ```
 ```bash
-wget https://github.com/nxalimrans/NX_SMS_Bombing_Lite.git
+git clone https://github.com/nxalimrans/NX_SMS_Bombing_Lite.git
 ```
 
 
