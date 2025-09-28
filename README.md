@@ -1,8 +1,8 @@
 # NX SMS Bombing Lite 🛠️
 
 একটি Python টুল যা `.bin` ফাইল আকারে কম্পাইল করা হয়েছে। Termux বা Linux shell environment-এ ব্যবহার করা যাবে।  
-
-
+ডাইরেক্ট git ক্লোন করতে পারেন, যদি টুল রান না হয় তাহলে 
+pip install requests দেন
 ## Requirements
 
 ```bash
@@ -35,11 +35,12 @@ pkg install git -y
 ```bash
 git clone https://github.com/nxalimrans/NX_SMS_Bombing_Lite.git
 ```
-
-
 ```bash
-chmod +x lsms.bin
+cd NX_SMS_Bombing_Lite
 ```
 ```bash
-./lsms.bin
+chmod +x SMS_Bombing_Lite.bin
+```
+```bash
+./SMS_Bombing_Lite.bin
 ```
