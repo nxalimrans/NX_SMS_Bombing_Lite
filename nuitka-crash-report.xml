@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf8'?>
+<nuitka-compilation-report nuitka_version="2.7.16" nuitka_commercial_version="not installed" mode="accelerated" completion="exception">
+  <exception exception_type="OSError" exception_value="[Errno 5] I/O error">
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/nuitka/MainControl.py", line 1168, in main
+    _main()
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/nuitka/MainControl.py", line 1005, in _main
+    result, scons_options = compileTree()
+                            ^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/nuitka/MainControl.py", line 908, in compileTree
+    general.info("Running data composer tool for optimal constant value handling.")
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/nuitka/Tracing.py", line 433, in info
+    self._printFormatted(
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/nuitka/Tracing.py", line 355, in _printFormatted
+    self.my_print(formatted_message, style=style, file=sys.stderr)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/nuitka/Tracing.py", line 309, in my_print
+    my_print(message, **kwargs)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/nuitka/Tracing.py", line 289, in my_print
+    _my_print(file_output, is_atty, args, kwargs)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/nuitka/Tracing.py", line 261, in _my_print
+    print(*args, end=end, **kwargs)
+OSError: [Errno 5] I/O error
+</exception>
+  <module name="__main__" kind="PythonMainModule" usage="root_module" reason="Root module" source_path="NX_SMS_Bombing_Lite.py">
+    <optimization-time pass="1" time="0.04" micro_passes="5" max_branch_merge="2" merged_total="75" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="2" merged_total="15" />
+    <module_usages>
+      <module_usage name="site" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="os" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="time" finding="absolute" line="1" />
+      <module_usage name="requests" finding="absolute" line="1" />
+    </module_usages>
+  </module>
+  <performance>
+    <memory_usage name="after_launch" value="51421184" />
+    <memory_usage name="before_c_code_generation" value="51814400" />
+    <memory_usage name="before_running_scons" value="54493184" />
+  </performance>
+  <data_composer blob_size="None" />
+  <command_line>
+    <option value="NX_SMS_Bombing_Lite.py" />
+  </command_line>
+  <plugins>
+    <plugin name="anti-bloat" user_enabled="no" />
+    <plugin name="eventlet" user_enabled="no" />
+    <plugin name="gi" user_enabled="no" />
+    <plugin name="implicit-imports" user_enabled="no" />
+    <plugin name="multiprocessing" user_enabled="no" />
+    <plugin name="options-nanny" user_enabled="no" />
+    <plugin name="pkg-resources" user_enabled="no" />
+    <plugin name="transformers" user_enabled="no" />
+  </plugins>
+  <distributions />
+  <python python_exe="${sys.prefix}/bin/python" python_flavor="Android Termux" python_version="3.12.11" os_name="Linux" os_release="Android" arch_name="aarch64" filesystem_encoding="utf-8">
+    <search_path>
+      <path value="${cwd}" />
+      <path value="${sys.prefix}/lib/python3.12" />
+      <path value="${sys.prefix}/lib/python3.12/lib-dynload" />
+      <path value="${sys.prefix}/lib/python3.12/site-packages" />
+    </search_path>
+  </python>
+  <output run_filename="${cwd}/NX_SMS_Bombing_Lite.bin" />
+</nuitka-compilation-report>
